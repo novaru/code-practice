@@ -400,15 +400,7 @@ public boolean frontAgain(String str) {
 - Description:
 Given two strings, append them together (known as "concatenation") and return the result. However, if the strings are different lengths, omit chars from the longer string so it is the same length as the shorter string. So "Hello" and "Hi" yield "loHi". The strings may be any length.
 - Solution:
-```java
-public String minCat(String a, String b) {
-  int x = a.length();
-  int y = b.length();
-  if(x > y) return a.substring(x-y, x) + b;
-  if(x < y) return a + b.substring(y-x, y);
-  return a + b;
-}
-```
+https://github.com/novaru/CompetitiveProgramming/blob/254acb5e292e62671779088986e4dfe9e56e0e88/CodingBat/Java/String-1/minCat.java#L1-L10
 ---
 #### extraFront
 - Description:
