@@ -400,7 +400,7 @@ public boolean frontAgain(String str) {
 - Description:
 Given two strings, append them together (known as "concatenation") and return the result. However, if the strings are different lengths, omit chars from the longer string so it is the same length as the shorter string. So "Hello" and "Hi" yield "loHi". The strings may be any length.
 - Solution:
-https://github.com/novaru/CompetitiveProgramming/blob/254acb5e292e62671779088986e4dfe9e56e0e88/CodingBat/Java/String-1/minCat.java#L1-L10
+https://github.com/novaru/code-practice/blob/81f7974aa1f7078a5c155de65f470190d7d08fc3/CodingBat/Java/String-1/minCat.java#L1-L10
 ---
 #### extraFront
 - Description:
